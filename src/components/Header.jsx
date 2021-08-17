@@ -63,8 +63,8 @@ const Header = () => {
             </div>
           </div>
         </nav>
-        <div className='max-w-full z-50 relative border-t border-gray-50'>
-          <div className='flex justify-between h-16 my-0 mx-auto max-w-7xl py-0 px-3'>
+        <div className='max-w-full z-50 relative'>
+          <div className='flex justify-between h-16 my-0 mx-auto max-w-7xl py-0 px-3  border-t border-gray-50'>
             <nav className='flex items-center flex-75'>
               <Link to='https://www.xfinity.com' className='text-linkColor'>
                 <img
