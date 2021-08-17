@@ -8,7 +8,10 @@ const FlexCard = ({
   buttonText,
   extraText1,
   extraText2,
+  imgStart,
   image,
+  lightBg,
+  lightText,
 }) => {
   return (
     <div>
@@ -21,6 +24,7 @@ const FlexCard = ({
           backgroundImage: `url(${image})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
+          flexDirection: imgStart === 'start' ? 'row' : 'row-reverse',
         }}
       >
         <div
@@ -47,7 +51,11 @@ const FlexCard = ({
                     <div className='inline-flex 2xl:mr-8'>
                       <Link
                         to='/'
-                        className='xds-btn-sm bg-gray-900 text-white rounded no-underline text-base font-bold'
+                        className='xds-btn-sm rounded no-underline text-base font-bold'
+                        style={{
+                          backgroundColor: lightBg ? '#fff' : '#0d0d0f',
+                          color: lightText ? '#fff' : '#0d0d0f',
+                        }}
                       >
                         {buttonText}
                       </Link>

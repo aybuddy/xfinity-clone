@@ -1,15 +1,20 @@
 export const heroContent = {
+  lightBg: false,
+  lightText: true,
   titleA: 'Get a $300 Visa® Prepaid Card with ',
   titleB: 'Xfinity Internet and Mobile',
   desc: 'Savings start with our latest deals on fast speeds. Then get $300 back for a limited time when you connect to the most reliable wireless network nationwide.',
   buttonText: 'Shop featured deals',
   extraText1: 'Limited Time',
   extraText2: 'Pricing & Other Info',
+  imgStart: 'start',
   image:
     'https://assets.xfinity.com/assets/dotcom/projects/cix-2598_fall-sale/2.0_Homepage_Hero_Fall_Sale-Desktop-Update-2.jpg',
 };
 
 export const availabilityContent = {
+  lightBg: false,
+  lightText: true,
   image:
     'https://assets.xfinity.com/assets/dotcom/icons/Icon_location_purple40_88x88.svg',
   titleA: "Let's find deals and services available in your area",
@@ -17,17 +22,22 @@ export const availabilityContent = {
 };
 
 export const xfiContent = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Powerful and',
   titleB: 'secure Internet',
   desc: 'Get WiFi speeds faster than a gig with the xFi Gateway, and count on a reliable connection for all your devices, even when everyone’s online.',
   buttonText: 'Shop xFi',
   extraText1:
     'Gig-speed over WiFi requires Gigabit Internet and compatible xFi Gateway. Gig-speed WiFi is shareable across all the devices in your home. Actual speeds vary.',
+  imgStart: '',
   image:
     'https://assets.xfinity.com/assets/dotcom/projects/cix-1976-learn-july-launch/HP_JulyMVE_FullImage_xFiInternet_ImageRight_Desktop2.jpg',
 };
 
 export const flexContent = {
+  lightBg: true,
+  lightText: false,
   titleA: '4K streaming TV box,',
   titleB: 'free with your Internet',
   desc: 'Thousands of awesome TV shows, movies, and documentaries. Plus all your favorite apps, all in one place.',
@@ -37,6 +47,8 @@ export const flexContent = {
 };
 
 export const mobileContent = {
+  lightBg: true,
+  lightText: false,
   titleA: 'The best price for',
   titleB: 'Unlimited nationwide 5G',
   desc: 'The more lines you add, the more value you get. Get unlimited data for $30 a line per month when you get 4 lines.',
@@ -50,6 +62,8 @@ export const phoneFinePrint = {
 };
 
 export const findDeal = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Get the',
   titleB: 'perfect plan',
   titleC: 'for you',
@@ -59,6 +73,8 @@ export const findDeal = {
 };
 
 export const comparePlans = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Compare plans',
   titleB: 'in your area',
   buttonText: 'Shop all plans',
@@ -67,32 +83,43 @@ export const comparePlans = {
 };
 
 export const rewardsContent = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Our thanks.',
   titleB: 'Your rewards.',
   desc: 'Enjoy a mix of special perks and experiences just for being a customer, with Xfinity Rewards.',
   buttonText: 'Learn more',
+  imgStart: '',
   image:
     'https://assets.xfinity.com/assets/dotcom/projects/cix-1976-learn-july-launch/HP_JulyMVE_FullImage_Rewards_ImageLeft_Desktop.png',
 };
 
 export const appContent = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Enjoy ultimate control',
   titleB: 'of your Internet',
   desc: 'Personalize your WiFi name and password, assign user profiles, view and control connected devices, and much more.',
   buttonText: 'Discover the Xfinity app',
+  imgStart: 'start',
   image:
     'https://assets.xfinity.com/assets/dotcom/projects/cix-1976-learn-july-launch/HP_JulyMVE_FullImage_XfinityApp_ImageRight_Desktop.png',
 };
 
 export const benefitsContent = {
+  lightBg: true,
+  lightText: false,
   titleA:
     "Xfinity is proud to support the Federal Government's Emergency Broadband Benefit",
   buttonText: 'Learn more',
+  imgStart: '',
   image:
     'url("https://assets.xfinity.com/assets/dotcom/projects/cix-1976-learn-july-launch/HP_JulyMVE_FullImageLarge_EBB_ImageLeft_Desktop.jpg")',
 };
 
 export const manageContent = {
+  lightBg: false,
+  lightText: true,
   titleA: 'Already with Xfinity?',
   desc: 'Manage your services and discover new ways to stay connected, protected, and entertained.',
   buttonText: 'Sign in',
@@ -101,6 +128,8 @@ export const manageContent = {
 };
 
 export const servicesContent = {
+  lightBg: true,
+  lightText: false,
   titleA: 'Our services work even better together',
   internetImage:
     'https://assets.xfinity.com/assets/dotcom/projects/cix-1976-learn-july-launch/Image_HoverTiles_InternetDevice_Desktop.png',
