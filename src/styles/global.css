@@ -1,0 +1,16 @@
+@tailwind components;
+
+@layer components {
+  .full-image-large-full {
+    @apply min-h-full;
+  }
+  .full-image-large-half {
+    @apply min-h-half;
+  }
+  .full-image-content-full {
+    @apply max-w-full flex-half relative self-stretch;
+  }
+  .full-image-content-half {
+    @apply max-w-hXl flex-half relative self-stretch;
+  }
+}

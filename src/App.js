@@ -1,5 +1,7 @@
 import './App.css';
+import './styles/global.css';
 import Header from './components/Header';
+import FlexCardContainer from './components/FlexCardContainer';
 
 function App() {
   return (
@@ -7,17 +9,7 @@ function App() {
       <Header />
 
       <main>
-        {/* Hero Component */}
-        {/* Available Services Component */}
-        {/* Flex Card Component */}
-        {/* Grid Card Component */}
-        {/* Grid Card Component */}
-        {/* Flex Card Component */}
-        {/* Flex Card Component */}
-        {/* Flex Card Component */}
-        {/* Flex Card Component */}
-        {/* Services Component */}
-        {/* Text Component */}
+        <FlexCardContainer />
       </main>
       <footer>{/* Footer Compoent (3 sections) */}</footer>
     </section>
