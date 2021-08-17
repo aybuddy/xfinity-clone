@@ -1,10 +1,26 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
-    <div>
-      <h1 className='text-9xl'>Xfinity Clone</h1>
-    </div>
+    <section>
+      <Header />
+
+      <main>
+        {/* Hero Component */}
+        {/* Available Services Component */}
+        {/* Flex Card Component */}
+        {/* Grid Card Component */}
+        {/* Grid Card Component */}
+        {/* Flex Card Component */}
+        {/* Flex Card Component */}
+        {/* Flex Card Component */}
+        {/* Flex Card Component */}
+        {/* Services Component */}
+        {/* Text Component */}
+      </main>
+      <footer>{/* Footer Compoent (3 sections) */}</footer>
+    </section>
   );
 }
 
