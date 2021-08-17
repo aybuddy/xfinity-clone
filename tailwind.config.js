@@ -6,6 +6,13 @@ module.exports = {
       textColor: {
         linkColor: '#b1b9bf',
       },
+      fontSize: {
+        head2: [
+          'clamp(1.625rem,1.2623456790123457rem + 1.5432098765432098vw,2.25rem)',
+          'clamp(2.125rem,1.7623456790123457rem + 1.5432098765432098vw,2.75rem)',
+        ],
+        biggest: '100px',
+      },
       flex: {
         2: '2 1 auto',
         '1auto': '1 0 auto',
@@ -17,7 +24,9 @@ module.exports = {
         110: '110px',
       },
       maxWidth: {
-        hXl: '50%',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
       },
       fontSize: {
         18: '18px',
@@ -26,8 +35,8 @@ module.exports = {
         smallTop: '.063rem solid #44484c',
       },
       minHeight: {
-        full: '80vw',
-        half: '40vw',
+        '80h': '80vw',
+        '40h': '40vw',
       },
     },
   },

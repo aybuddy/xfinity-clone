@@ -2,15 +2,24 @@
 
 @layer components {
   .full-image-large-full {
-    @apply min-h-full;
+    @apply min-h-80h;
   }
   .full-image-large-half {
-    @apply min-h-half;
+    @apply min-h-40h;
   }
   .full-image-content-full {
     @apply max-w-full flex-half relative self-stretch;
   }
   .full-image-content-half {
-    @apply max-w-hXl flex-half relative self-stretch;
+    @apply max-w-1/2 flex-half relative self-stretch;
+  }
+  .xds-flex-col {
+    @apply flex-col;
+  }
+  .xds-flex-row {
+    @apply flex-row;
+  }
+  .xds-btn-sm {
+    @apply px-6 py-3;
   }
 }
