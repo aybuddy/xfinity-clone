@@ -12,11 +12,12 @@ const FlexCard = ({
   image,
   lightBg,
   lightText,
+  style,
 }) => {
   return (
     <div>
       <div
-        className='flex flex-1 flex-col md:flex-row items-center justify-start md:full-image-large-half bg-gray-50'
+        className='flex flex-1 flex-col md:flex-row items-center justify-start md:full-image-large-half'
         style={{
           position: 'relative',
           backgroundPosition: 'center center',
@@ -31,7 +32,7 @@ const FlexCard = ({
           className='flex flex-col items-center full-image-content-half max-w justify-center px-6 py-8 md:px-8 md:py-10 lg:px-16 lg:py-16 md:full-image-content-half'
           style={{ zIndex: 1 }}
         >
-          <div className='bg-grey-50 overflow-hidden'>
+          <div className='overflow-hidden'>
             <div className='h-full'>
               <div
                 className='bg-cover bg-no-repeat bg-center content-center h-full mx-auto relative flex flex-col '
@@ -51,7 +52,7 @@ const FlexCard = ({
                     <div className='inline-flex 2xl:mr-8'>
                       <Link
                         to='/'
-                        className='xds-btn-sm rounded no-underline text-base font-bold'
+                        className='xds-btn-sm rounded no-underline text-base font-bold xds-btn-outline-neutral'
                         style={{
                           backgroundColor: lightBg ? '#fff' : '#0d0d0f',
                           color: lightText ? '#fff' : '#0d0d0f',

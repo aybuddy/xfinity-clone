@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       textColor: {
         linkColor: '#b1b9bf',
+        buttonColor: 'rgba(35,35,40,.15)',
       },
       fontSize: {
         head2: [
@@ -37,6 +38,9 @@ module.exports = {
       minHeight: {
         '80h': '80vw',
         '40h': '40vw',
+      },
+      backgroundColor: {
+        grey05: 'rgba(246,246,249,1)',
       },
     },
   },

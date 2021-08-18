@@ -22,4 +22,13 @@
   .xds-btn-sm {
     @apply px-6 py-3;
   }
+  .xds-btn-outline-neutral {
+    @apply border-2 border-solid text-buttonColor;
+  }
+  .media-image {
+    @apply object-contain;
+  }
+  .xds-bg-grey-05 {
+    @apply bg-grey05;
+  }
 }
